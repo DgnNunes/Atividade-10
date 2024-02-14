@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de dados em função</title>
+</head>
+<body>
+    <H1>Crie uma função que solicite para o usuário através do prompt de comando sua idade,<br>
+         e a partir da idade fornecida, exiba uma mensagem informando se ele é maior de idade ou não. 
+         Considere 18 anos como maior idade.</H1>
+<script>
+    
+    function verificarIdade() {
+    
+    let idade = prompt("Digite sua idade:");
+
+    idade = parseInt(idade);
+
+    if (idade >= 18) {
+        console.log("Você é maior de idade.");
+    } else {
+        console.log("Você não é maior de idade.");
+    }
+}
+
+verificarIdade();
+</script>
+</body>
+</html>
